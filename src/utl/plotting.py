@@ -5,7 +5,6 @@ import glob
 import os
 import shutil
 
-
 def plot_lines(file_names,ax):
   """
   Plots lines from a bunch of files.

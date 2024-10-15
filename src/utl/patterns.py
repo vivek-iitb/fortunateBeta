@@ -8,7 +8,6 @@ class Memoize:
             self.memo[args] = self.f(*args)
         #Warning: You may wish to do a deepcopy here if returning objects
         return self.memo[args]
-Then:
 
 def factorial(k):
     if k < 2: return 1
